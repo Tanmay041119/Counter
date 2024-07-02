@@ -23,6 +23,9 @@ const decrement= function(){
     if(value<0){
         counter.style.color='red';
     }
+     if(value===0){
+        counter.style.color='black';
+    }
         
     //Set the value onto UI
     countValue.textContent=value;
